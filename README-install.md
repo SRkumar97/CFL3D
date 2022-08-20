@@ -1,5 +1,5 @@
 ------------
-This repository comprises the NASA CFL3D V6.7 code, as of year 2022. Though the entire package of files is extracted from official NASA Git (https://github.com/nasa/CFL3D), the purpose of creating this repository is to share the Cmake build system for the code. This Cmake build system for CFL3D code was originally written by Dr. Cheng Di (https://github.com/nasa/CFL3D/pulls) few years back. The procedure to install using this Cmake system is provided below as well as in the notes.txt file.
+This repository comprises the NASA CFL3D V6.7 code, as of year 2022. Though the entire package of files is extracted from official NASA Git (https://github.com/nasa/CFL3D), the purpose of creating this repository is to share the Cmake build system for the code. This Cmake build system for CFL3D code was originally written by Dr. Cheng Di (https://github.com/nasa/CFL3D/pulls) few years back. The procedure to install using this Cmake system is provided below.
 
 ### Compilation and running
 ```shell
