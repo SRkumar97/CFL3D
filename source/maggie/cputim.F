@@ -105,9 +105,18 @@ c
 #if defined ETFLAG
       call etime_(tm)
       call itime_(ia)
+#elif defined __GFORTRAN__
+      call etime(tm(1:2),tm(3))
+      call itime(ia)
 #else
       call etime(tm)
       call itime(ia)
+c #if defined ETFLAG
+c       call etime_(tm)
+c       call itime_(ia)
+c #else
+c       call etime(tm)
+c       call itime(ia)
 #endif
 c
       tm(3) = ia(3) +60*(ia(2) +60*ia(1))
