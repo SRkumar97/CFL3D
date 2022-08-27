@@ -21,6 +21,11 @@ chmod +x build_cgns
 ## build cfl3d executables out of source
 cd ../build
 cmake ..
+
+# Now check that the paths for cgns include and lib are set correctly to CFL3D/external/cgns/include and CFL3D/external/cgns/lib respectively.
+ccmake .
+# Now press t for toggle, enter the two paths for cgns env. variables under CGNS_INCLUDE_DIR and CGNS_LIBRARY correctly, to the ones shown above
+# Finally press c to configure, e to exit upon successful config. And then g to generate.
 make
 # or you may benefit from parallel run, try:
 make -j`nproc`
