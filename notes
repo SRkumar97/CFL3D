@@ -50,7 +50,7 @@ THATS IT. YOU ARE GOOD TO GO!
 ————————————————————————
 # FOR TESTING CFL3D
 ----------------------------------------------------
-cd CFL3D-master/docs/Cfl3dv6/  (testcase directory)
+cd CFL3D/docs/Cfl3dv6/  (testcase directory)
 cd 2DTestcases/Flatplate/      (2D Flatplate testcase)
 gunzip Flatplate.tar.Z
 tar -xvf Flatplate.tar
