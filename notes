@@ -11,6 +11,7 @@ sudo apt-get install libopenmpi-dev gfortran build-essential git cmake -y
 # in RHEL/CentOS, you may try this:
 sudo yum install openmpi-devel gcc gcc-gfortran git cmake
 
+git clone https://github.com/SRkumar97/CFL3D.git
 
 ## manually build cgns 2.5 without hdf5 and mpi
 # you can also use your own cgns library if you put your cgnslib_f.h and libcgns.a in /usr/share/include and /usr/share/lib respectively
